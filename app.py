@@ -5,7 +5,7 @@ Run with:  python -m streamlit run app.py
 
 import streamlit as st
 
-st.set_page_config(page_title="Ôn tập Vật lí 12", page_icon="⚛️", layout="centered",
+st.set_page_config(page_title="Ôn tập Vật lí cùng Thầy Hải AI", page_icon="⚛️", layout="centered",
                    initial_sidebar_state="auto")
 
 from quiz_app import db, nav, ui  # noqa: E402
