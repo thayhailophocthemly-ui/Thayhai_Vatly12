@@ -7,22 +7,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Ôn tập Vật lí cùng Thầy Hải AI", page_icon="⚛️", layout="centered",
                    initial_sidebar_state="auto")
-import streamlit as st
-
-# Cấu hình tiêu đề tab trình duyệt và icon
-st.set_page_config(
-    page_title="Hệ Thống Ôn Tập Vật Lý 12 Pro", 
-    page_icon="⚡", 
-    layout="centered",
-    initial_sidebar_state="auto"
-)
-
-# [TÙY CHỈNH GIAO DIỆN] Ẩn thanh banner tiêu đề mặc định của Streamlit Cloud
-st.markdown("""
-    <style>
-    header {visibility: hidden;}
-    </style>
-""", unsafe_allow_html=True)
 
 from quiz_app import db, nav, ui  # noqa: E402
 from quiz_app.views import (  # noqa: E402
