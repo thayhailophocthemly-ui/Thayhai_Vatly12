@@ -1,0 +1,5 @@
+streamlit>=1.45
+google-genai>=1.0
+gspread>=6.0
+pandas>=2.0
+python-docx>=1.1
